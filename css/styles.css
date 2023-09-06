@@ -109,10 +109,12 @@ body {
 hr {
   margin: 1rem 0;
   color: inherit;
-  border: 0;
-  border-top: 1px solid;
-  opacity: 0.25;
+
+  border: 3px solid #00473E;
+
 }
+
+
 
 h6, .h6, h5, .h5, h4, .h4, h3, .h3, h2, .h2, h1, .h1 {
   margin-top: 0;
@@ -8198,6 +8200,11 @@ textarea.form-control-lg {
 .text-highlight {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-highlight-rgb), var(--bs-text-opacity)) !important;
+}
+
+.second-background {
+  background: #00473E;
+  width: 100vw;
 }
 
 .text-success {
